@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <h1><b><img src="Movie logo.png" width="200px"></b></h1>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+    <main>
+        <form id="loginform">
+            <label for="Username">Username: </label><input type="text" id="username" name="Username" required><br><br>
+            <label for="email">Email ID: </label><input type="email" id="email" name="Email ID" required><br><br>
+            <label for="Phone">Phone Number: </label><input type="number" id="Phone" name="Phone Number" required><br><br>
+            <label for="date">DOB: </label><input type="date" id="date" name="DOB" required><br><br>
+            <label for="password">Password:</label><input type="password" id="password" name="Password" required><br><br>
+            <button id="button" onclick="validate()">Log In</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
